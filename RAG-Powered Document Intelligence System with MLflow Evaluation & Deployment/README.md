@@ -44,7 +44,7 @@ The objective of this project was to design and deploy a production-grade Retrie
 - **LLM Augmentation** — Augmented user queries with retrieved context and routed them to the Anthropic Claude API, maintaining multi-turn conversation history for coherent dialogue
 - **Hyperparameter Evaluation** — Designed a systematic evaluation framework using 20 ground-truth Q&A pairs and three retrieval metrics (Hit Rate@K, Precision@K, Recall@K); ran 216 MLflow-tracked experiments across embedding models, chunk sizes, overlap values, Top-K settings, and score thresholds to identify the optimal configuration
 - **Modular Architecture** — Engineered 8 fully decoupled pipeline components (ingestion, splitting, embedding, vector store, retrieval, system prompt, answering, orchestration) enabling independent testing and parameter updates with a single config file
-- **Containerization & Deployment** — Containerized the optimized pipeline using Docker with `uv`-based reproducible dependency management, pushed to Docker Hub, and deployed to AWS ECS for scalable cloud serving
+- **Containerization & Deployment** — Containerized the optimized pipeline using Docker with `uv`-based reproducible dependency management, pushed to Docker Hub, and deployed to HuggingFace
 
 ---
 
