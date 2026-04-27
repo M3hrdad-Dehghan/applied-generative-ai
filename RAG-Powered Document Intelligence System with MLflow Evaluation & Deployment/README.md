@@ -56,7 +56,6 @@ The objective of this project was to design and deploy a production-grade Retrie
 - Hyperparameter evaluation and experiment tracking with MLflow
 - Modular Python architecture with single-config parameter management
 - Docker containerization with reproducible `uv`-based dependency builds
-- Cloud deployment on AWS ECS via Docker Hub
 - Streamlit application development with dark-themed chat UI
 
 ---
