@@ -1,12 +1,3 @@
----
-title: RAG Medical
-emoji: 🏥
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 8501
----
-
 <div align="center">
   <h1>
     RAG-Powered Document Intelligence System with MLflow Evaluation & Cloud Deployment
