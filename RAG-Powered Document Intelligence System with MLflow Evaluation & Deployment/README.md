@@ -62,4 +62,4 @@ The objective of this project was to design and deploy a production-grade Retrie
 
 ## 🎥 YouTube Walkthrough
  
-???
+https://youtu.be/sOp7-gbINXY
